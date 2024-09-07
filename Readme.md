@@ -28,9 +28,9 @@ The Administrative Division of Africans Countries, ADAC is a web application des
 
 ```bash
 
-git clone https://github.com/AbakarLol/ADAC.git
+git clone https://github.com/AbakarLol/CP4-ADAC.git
 
-cd ADAC
+cd CP4-ADAC
 
 ```
 
