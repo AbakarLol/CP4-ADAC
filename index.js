@@ -20,7 +20,6 @@ app.get("/indexed/:id", async (req, res) => {
     try{
         const response = await axios.get(API_URL + id + ".json");
         const result = response.data;
-        console.log(result);
         res.render("index.ejs", {data : result});
        }catch(error){
         console.log(`Failed to make a request: ${ error.message}` );
